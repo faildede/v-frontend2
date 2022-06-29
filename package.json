@@ -1,0 +1,23 @@
+{
+  "name": "v-frontend",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --port 5000",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "@urql/vue": "^0.6.2",
+    "graphql": "^16.4.0",
+    "pinia": "^2.0.13",
+    "vue": "^3.2.33",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.4",
+    "vite": "^2.9.5"
+  }
+}
